@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import Footer from "./Footer";
+import Footer from "./footer";
 
 test('verifica se o texto "Contatos" está presente', () => {
     render(<Footer />);

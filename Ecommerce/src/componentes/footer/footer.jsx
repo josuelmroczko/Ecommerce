@@ -1,6 +1,6 @@
 import { Direitos, FooterContainer } from './style';
 
-const Footer = ({ logo }) => {
+const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
@@ -47,11 +47,7 @@ const Footer = ({ logo }) => {
           </li>
         </ul>
 
-        <ul>
-          <li>
-            <img src={logo} alt="Logo" />
-          </li>
-        </ul>
+        
       </FooterContainer>
       <Direitos>
         {' '}
