@@ -1,12 +1,5 @@
 // Altere os caminhos das imagens conforme necessário
-import prudot1 from '../imagem/imagem1.jpg';
-import prudot2 from '../imagem/imagem2.jpg';
-import prudot3 from '../imagem/imagem3.jpg';
-import prudot4 from '../imagem/Imagem4.png';
-import prudot5 from '../imagem/Imagem5 .jpg';
-import prudot6 from '../imagem/Imagem6.jpg';
-import prudot7 from '../imagem/Imagem7.jpg';
-import prudot8 from '../imagem/Imagem8.jpg';
+ 
 import landingPage from '../imagem/landingPageOne.png'
 import landingPage2 from '../imagem/LandingPage2.png'
 const produtosData = [
