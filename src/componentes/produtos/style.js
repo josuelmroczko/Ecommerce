@@ -1,54 +1,42 @@
 import styled from 'styled-components';
-import Cores from '../../utils/cores/cores';
 
 export const StyleProdutos = styled.div`
-  position: relative;
   ul {
-    padding: 5px;
+    padding: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-  }
-  span {
-    font-size: 20px;
-    font-weight: bold;
-  }
-  a{
-    text-decoration: none;
-    color: black;
-  }
-  p {
-    font-size: 20px;
+    justify-content: center;
   }
 
   li {
-    text-align: center;
-     
-    width: 300px;
-    height: 300px;
-    list-style: none;
-    line-height: 5px;
-
-    /*background-color: ${Cores.cinzaClaro};*/
-    margin: 25px; /* Espaço entre os itens (opcional) */
-    box-sizing: border-box; /* Inclui padding e borda no tamanho total do elemento */
-
-    &:hover {
-      width: 280px;
-      height: 280px;
-    }
+    margin: 25px;
   }
 
-  @media (max-width: 450px) {
-    li {
-      width: 250px;
-      height: 300;
- 
+  .produto-info {
+    text-align: center;
+  }
 
-      &:hover {
-        width: 250px;
-        height: 250px;
-      }
-    }
+  .imagem-produto {
+    max-width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease; /* Transição apenas para a propriedade transform */
+  }
+
+  .imagem-produto:hover {
+    transform: scale(1.1); /* Aumenta a escala da imagem em 10% ao passar o mouse */
+  }
+
+  p {
+    margin: 10px 0;
+  }
+
+  span {
+    display: block;
+    font-weight: bold;
+  }
+  a{
+    color: black;
   }
 `;

@@ -12,9 +12,7 @@ export default function Home() {
       <div className="home-container">
         <ul className="nav-list">
           <React.Fragment>
-            <li>
-              <h3>System</h3>
-            </li>
+      
  
 
             <li className="menu-options">

@@ -4,7 +4,7 @@ import Cores from '../../utils/cores/cores';
 const StyleDiv = styled.div`
   position: fixed;
   z-index: 999;
-  background-color: ${Cores.branco};
+  background-color: ${Cores.brancoTransparente};
   width: 100%;
   left: 0px;
 
@@ -70,7 +70,7 @@ const StyleDiv = styled.div`
     .nav-list {
       position: fixed;
       justify-content: space-around;
-      background-color: white;
+      background-color: ${Cores.brancoTransparente};
       padding: 20px;
        
       width: 100%;

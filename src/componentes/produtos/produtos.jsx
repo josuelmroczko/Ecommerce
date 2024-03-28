@@ -1,5 +1,3 @@
-// Produtos.jsx
-
 import React from 'react';
 import { StyleProdutos } from './style';
 
@@ -19,15 +17,16 @@ export default function Produtos({ produtosData }) {
       <ul>
         {produtosData.map((produto, index) => (
           <li key={index}>
-             <a href={produto.link} target='blank'>
-
-            <img
-              src={produto.imagem}
-              alt={`Imagem ${index}`}
-              style={{ maxWidth: '100%', height: '250px' ,objectFit:'cover'}}
-            />
-            <p>{produto.nome}</p>
-            <span>{`Preço: ${formatarPreco(produto.preco)}`}</span>
+            <a href={produto.link} target='blank'>
+              <div className="produto-info">
+                <img
+                  src={produto.imagem}
+                  alt={`Imagem ${index}`}
+                  className="imagem-produto"
+                />
+                <p>{produto.nome}</p>
+                <span>{`Preço: ${formatarPreco(produto.preco)}`}</span>
+              </div>
             </a>
           </li>
         ))}

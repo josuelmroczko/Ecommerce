@@ -6,6 +6,7 @@ import Contatos from './pages/contatos/contatos.jsx';
 import { ImageProvider } from '../src/imagemProvider/imagemProvider.jsx';
 import Sobre from './pages/sobre/sobre.jsx';
 import './App.css'
+import Servicos from './componentes/servicos/servicos.jsx';
 function App() {
   return (
     <ImageProvider>
@@ -19,8 +20,9 @@ function App() {
           <Route path="/entrar" element={<Entrar />} />
           <Route path="/contato" element={<Contatos />} />
           <Route path="/sobre" element={<Sobre />} />
-        </Routes>
+        </Routes> 
       </Router>
+
     </ImageProvider>
   );
 }

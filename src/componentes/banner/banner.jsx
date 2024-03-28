@@ -3,6 +3,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import StyleDiv from './style';
+import { data } from '../../adicionarProdutos/dataTextos';
 
 export default function Banner({ banner1, banner2 }) {
   const settings = {
@@ -20,9 +21,10 @@ export default function Banner({ banner1, banner2 }) {
       <Slider {...settings}>
         <div>
           <div className="text-container">
-            <h1>Landing Page Profissional</h1>
-            <p>Modelos de sites especialmente desenhados para atender às necessidades de escritórios de advocacia e profissionais do direito. Aprimore a presença online do seu negócio com uma apresentação de excelência na web.</p>
+            <h1>{data.textoBanner.titulo}</h1>
+            <p>{data.textoBanner.texto}</p>
           </div>
+
           <div className="image-container">
             <img src={banner1} alt="banner 1" />
           </div>

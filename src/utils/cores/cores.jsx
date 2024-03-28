@@ -13,6 +13,7 @@ const Cores = {
   ciano: '#00FFFF',
   preto: '#000000',
   branco: '#FFFFFF',
+  brancoTransparente:'rgb(250, 250, 250,0.5)',
   magenta: '#FF00FF',
   turquesa: '#40E0D0',
   lima: '#00FF00',
