@@ -13,8 +13,38 @@ export default function Banner({ banner1, banner2 }) {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // Habilita o autoplay
-    autoplaySpeed: 3000, // Define o tempo de intervalo entre os slides (em milissegundos)
+    autoplaySpeed: 4000, // Define o tempo de intervalo entre os slides (em milissegundos)
+    prevArrow: <SamplePrevArrow />,
+    nextArrow: <SampleNextArrow />
   };
+
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className={className}
+        style={{ ...style, left: 10, zIndex: 1 }} // Ajuste a posição da seta para a esquerda
+        onClick={onClick}
+        onKeyDown={onClick}
+      >
+        {"<"}
+      </button>
+    );
+  }
+
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <button
+        className={className}
+        style={{ ...style, right: 10, zIndex: 1 }} // Ajuste a posição da seta para a direita
+        onClick={onClick}
+        onKeyDown={onClick}
+      >
+        {">"}
+      </button>
+    );
+  }
 
   return (
     <StyleDiv>
@@ -33,7 +63,8 @@ export default function Banner({ banner1, banner2 }) {
           <div className="text-container">
             <h1>Landing Page especializada </h1>
             <p>
-Explorando a Era Digital: Sites Essenciais para Advogados</p>
+              Explorando a Era Digital: Sites Essenciais para Advogados
+            </p>
           </div>
           <div className="image-container">
             <img src={banner2} alt="banner 2" />

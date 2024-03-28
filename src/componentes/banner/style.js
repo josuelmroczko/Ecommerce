@@ -25,6 +25,7 @@ const Slider = styled.div`
  
    }
    p{
+    
     font-size: 2.2rem;
     text-align: center;
    }
@@ -73,6 +74,8 @@ const Slider = styled.div`
   font-size: 2rem;
    }
    p{
+    top: 10px;
+    left: 5px;
     font-size: 1rem;
    }
   }
