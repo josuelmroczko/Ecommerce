@@ -9,11 +9,11 @@ export default function Banner({ banner1, banner2 }) {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 1000, // Altere o valor conforme necessário
+    speed: 3000, // Altere o valor conforme necessário
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // Habilita o autoplay
-    autoplaySpeed: 30000, // Define o tempo de intervalo entre os slides (em milissegundos)
+    autoplaySpeed: 3000, // Define o tempo de intervalo entre os slides (em milissegundos)
   };
 
   return (
