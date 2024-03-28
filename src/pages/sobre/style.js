@@ -2,13 +2,13 @@ import styled from 'styled-components';
 
 export const StyledDiv = styled.div`
   position: absolute;
-  top: 120px;
-  height: 400px;
+  top: 100px;
+  height: 480px;
    text-align: center;
   bottom: 0;
   padding-right: 10%;
   padding-left: 10%;
-   overflow-y: auto; /* Adiciona uma barra de rolagem vertical quando necessário */
+   overflow-y: auto;  
   font-size: 18px;
   z-index: 999;
   &::-webkit-scrollbar { /* Estilo da barra de rolagem para navegadores Webkit (como Chrome, Safari, etc.) */

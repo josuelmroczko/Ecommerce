@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import Cores from '../../utils/cores/cores';
 
 export const FooterContainer = styled.footer`
   display: flex;
@@ -6,7 +7,7 @@ export const FooterContainer = styled.footer`
   text-align: center;
   justify-content: space-around;
   padding: 50px;
- 
+  background: linear-gradient(to bottom, ${Cores.branco}, ${Cores.preto});
 
   ul {
     display: flex;
@@ -17,6 +18,8 @@ export const FooterContainer = styled.footer`
 
   li {
     list-style: none;
+    
+
   }
 
   img {

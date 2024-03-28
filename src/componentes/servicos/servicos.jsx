@@ -3,6 +3,7 @@ import { ServicosStyle } from "./servicosStyle";
 export default function Servicos(texto){
     return(
         <ServicosStyle>
+            <h2>Serviços</h2>
         <ul>
             <li><h4>Criação e Hospedagem de Sites Jurídicos</h4>
 

@@ -1,49 +1,50 @@
+import { data } from '../../adicionarProdutos/dataTextos';
 import { Direitos, FooterContainer } from './style';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <>
+    <div>
       <FooterContainer>
         <ul>
-          <h3>Contatos</h3>
+          <h3>{data.footer.contatos.Contatos}</h3>
           <li>
-            <p> 11111111111</p>
+            <p> {data.footer.contatos.telefone}</p>
           </li>
           <li>
-            <p>bitsorcerersteam@gmail.com </p>
+            <p>{data.footer.contatos.whatsapp}</p>
           </li>
           <li>
-            <p> </p>
+            <p>{data.footer.contatos.email} </p>
           </li>
         </ul>
 
         <ul>
           <li>
-            <h3>Redes Sociais</h3>
+            <h3>{data.footer.Sociais.redesSociais}</h3>
           </li>
           <li>
-            <p> whatsapp</p>
+            <p>{data.footer.Sociais.Instagram}</p>
           </li>
           <li>
-            <p> Facebook</p>
+            <p>{data.footer.Sociais.facebook}</p>
           </li>
           <li>
-            <p> Instagram</p>
+            <p>{data.footer.Sociais.linkedin}</p>
           </li>
          
         </ul>
 
         <ul>
           <li>
-            <h3>Política de cancelamento</h3>
+            <h3>{data.footer.politicas.politicasDeCompra}</h3>
           </li>
           <li>
-            <p>Política de compra</p>
+            <p>{data.footer.politicas.Politicas}</p>
           </li>
           <li>
-            <p>Dúvidas</p>
+            <p>{data.footer.politicas.duvidas}</p>
           </li>
         </ul>
 
@@ -56,7 +57,7 @@ const Footer = () => {
           Termos de Serviço do Google se aplicam.
         </p>
       </Direitos>
-    </>
+    </div>
   );
 };
 

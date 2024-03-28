@@ -11,6 +11,7 @@ import lupaPesquisa from '../../imagem/lupa.png';
 import banner1 from '../../imagem/banner2.jpg';
 import banner2 from '../../imagem/banner1.jpg';
 import Servicos from '../../componentes/servicos/servicos.jsx';
+import Valores from '../../componentes/valores/valores.jsx';
 
 function Homeeapp() {
   return (
@@ -20,7 +21,9 @@ function Homeeapp() {
         imagemLupaPesquisa={lupaPesquisa}
       />
       <Banner banner1={banner1} banner2={banner2} />
+      
       <Servicos/>
+      <Valores/>
       <Produtos produtosData={produtosData} />
       <Footer />
     </div>

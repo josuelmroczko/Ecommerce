@@ -12,10 +12,15 @@ const fadeIn = keyframes`
 `;
 
 export const ServicosStyle = styled.div`
+
 position: relative;
-  padding-top: 10%;
-   right: 5%;
-  
+  padding-top: 2%;
+    
+   h2{
+    text-align: center;
+     font-size: 2rem;
+     padding-bottom: 5%;
+   }
 
   ul {
     display: flex;
@@ -44,5 +49,11 @@ position: relative;
   li:hover {
     transform: translateY(-5px);
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+  }
+  @media screen and (max-width: 600px) {
+    li{
+      position: relative;
+      right: 15px;
+    }
   }
 `;
