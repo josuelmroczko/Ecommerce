@@ -31,12 +31,12 @@ export const data = {
         texto2:'Até 2.000 emails por mês',
         tamanho2:'Solicitações de até 50Kb',
         etiqueta2:'Etiqueta totalmente branca',
-        preco2:'+ R$ 20,00 ',
+        preco2:'+ R$ 10,00 ',
 
         planoPremiumPlus:'Plano Premium:',
         texto3:'Até 5.000 emails por mês',
         tamanho3:'Solicitações de até 50Kb',
-        preco3:'+ R$ 30,00 ',
+        preco3:'+ R$ 15,00 ',
 
 
     },
