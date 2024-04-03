@@ -12,6 +12,7 @@ import banner1 from '../../imagem/banner2.jpg';
 import banner2 from '../../imagem/banner1.jpg';
 import Servicos from '../../componentes/servicos/servicos.jsx';
 import Valores from '../../componentes/valores/valores.jsx';
+import Whatsapp from '../../componentes/whatsapp/whatsapp.jsx';
 
 function Homeeapp() {
   return (
@@ -25,7 +26,9 @@ function Homeeapp() {
       <Servicos/>
       <Valores/>
       <Produtos produtosData={produtosData} />
+      <Whatsapp/>
       <Footer />
+      
     </div>
   );
 }

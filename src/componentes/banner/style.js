@@ -7,6 +7,7 @@ const Slider = styled.div`
   .text-container {
     position: absolute;
     top: 120px;
+ 
     text-align: center;
     z-index: 2;
    }
@@ -21,13 +22,14 @@ const Slider = styled.div`
      
    }
    h1 {
+  
   font-size: 3rem;
- 
+ text-align: end;
    }
    p{
     
-    font-size: 2.2rem;
-    text-align: center;
+    font-size: 1.5rem;
+    text-align: start;
    }
   
 

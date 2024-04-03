@@ -9,7 +9,7 @@ export default function Banner({ banner1, banner2 }) {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 3000, // Altere o valor conforme necessário
+    speed: 2000, // Altere o valor conforme necessário
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true, // Habilita o autoplay
@@ -61,9 +61,9 @@ export default function Banner({ banner1, banner2 }) {
         </div>
         <div>
           <div className="text-container">
-            <h1>Landing Page especializada </h1>
+            <h1>{data.textoBanner.titulo2}</h1>
             <p>
-              Explorando a Era Digital: Sites Essenciais para Advogados
+              {data.textoBanner.texto2}
             </p>
           </div>
           <div className="image-container">

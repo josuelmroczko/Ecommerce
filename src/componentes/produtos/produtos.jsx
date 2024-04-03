@@ -25,7 +25,7 @@ export default function Produtos({ produtosData }) {
                   className="imagem-produto"
                 />
                 <p>{produto.nome}</p>
-                <span>{`Preço: ${formatarPreco(produto.preco)}`}</span>
+                {/*<span>{`Preço: ${formatarPreco(produto.preco)}`}</span>    //Caso queira por preço descomente*/} 
               </div>
             </a>
           </li>

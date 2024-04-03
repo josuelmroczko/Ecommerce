@@ -7,7 +7,7 @@ export const FooterContainer = styled.footer`
   text-align: center;
   justify-content: space-around;
   padding: 50px;
-  background: linear-gradient(to bottom, ${Cores.branco}, ${Cores.preto});
+  background: linear-gradient(to bottom, ${Cores.branco}, ${Cores.prata});
 
   ul {
     display: flex;
