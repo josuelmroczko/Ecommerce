@@ -10,14 +10,17 @@ const Footer = () => {
         <ul>
           <h3>{data.footer.contatos.Contatos}</h3>
           <li>
-            <p> {data.footer.contatos.telefone}</p>
+           <a href="tel:+55 993093681"> <p> {data.footer.contatos.telefone}</p></a>
+            
           </li>
           <li>
-            <p>{data.footer.contatos.whatsapp}</p>
+           <a href={data.footer.contatos.whatsappLink}> <p>{data.footer.contatos.whatsapp}</p></a> 
           </li>
           <li>
-            <p>{data.footer.contatos.email} </p>
-          </li>
+          <a href="mailto:techjurisJP@hotmail.com
+">
+    <p>{data.footer.contatos.email}</p>
+</a>          </li>
         </ul>
 
         <ul>
@@ -25,18 +28,18 @@ const Footer = () => {
             <h3>{data.footer.Sociais.redesSociais}</h3>
           </li>
           <li>
-            <p>{data.footer.Sociais.Instagram}</p>
+            <a href={data.footer.Sociais.InstagramLink}><p>{data.footer.Sociais.Instagram}</p></a>
           </li>
           <li>
             <p>{data.footer.Sociais.facebook}</p>
           </li>
           <li>
-            <p>{data.footer.Sociais.linkedin}</p>
+            <a href={data.footer.Sociais.linkedinLink}><p>{data.footer.Sociais.linkedin}</p></a>
           </li>
          
         </ul>
 
-        <ul>
+        {/*<ul>
           <li>
             <h3>{data.footer.politicas.politicasDeCompra}</h3>
           </li>
@@ -46,7 +49,7 @@ const Footer = () => {
           <li>
             <p>{data.footer.politicas.duvidas}</p>
           </li>
-        </ul>
+        </ul>*/}
 
         
       </FooterContainer>

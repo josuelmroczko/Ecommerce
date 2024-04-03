@@ -21,6 +21,25 @@ export const data = {
         titulo3:'Destaque sua História e Imagem Profissionalmente',
         texto3:'Destaque-se no mundo jurídico compartilhando sua história e suas fotos de forma profissional e impactante. Nossa equipe especializada ajudará a transmitir a credibilidade e a expertise do seu escritório, destacando sua trajetória e sua imagem de forma única para os visitantes do seu site.',
     },
+    valoresEmail:{
+        planoBasico:'Plano Básico:',
+        texto1:'Até 200 emails por mês',
+        tamanho1:'Solicitações de até 50Kb',
+        preco1:'+ R$ 00,00 ',
+
+        planoPadrao:'Plano Padrão:',
+        texto2:'Até 2.000 emails por mês',
+        tamanho2:'Solicitações de até 50Kb',
+        etiqueta2:'Etiqueta totalmente branca',
+        preco2:'+ R$ 20,00 ',
+
+        planoPremiumPlus:'Plano Premium:',
+        texto3:'Até 5.000 emails por mês',
+        tamanho3:'Solicitações de até 50Kb',
+        preco3:'+ R$ 30,00 ',
+
+
+    },
 
     footer:{
         contatos:{
@@ -28,16 +47,19 @@ export const data = {
             telefone:'telefone: 11 993093681',
             linkTelefone:'',
             whatsapp:'whatsapp: 11 993093681',
-            whatsappLink:'',
-            email:'emailCriarEmail',
+            whatsappLink:'https://w.app/1uNxAo',
+            email:'techjurisJP@hotmail.com',
 
         },
+        
 
         Sociais:{
             redesSociais:'Redes Sociais',
             linkedin:'Linkedin',
+            linkedinLink:'https://www.linkedin.com/company/103161234/admin/feed/posts/?feedType=following',
             facebook:'Facebook',
             Instagram:'Instagram',
+            InstagramLink:'https://www.instagram.com/bitsorcerersteam/followers/'
         },
 
         politicas:{

@@ -37,6 +37,9 @@ ul {
     margin-bottom: 10px;
   }
 
+  h2{
+    text-align: center;
+  }
   span {
     font-size: 1.5em;
     color: #00aaff;

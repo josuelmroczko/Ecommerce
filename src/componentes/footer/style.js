@@ -8,13 +8,17 @@ export const FooterContainer = styled.footer`
   justify-content: space-around;
   padding: 50px;
   background: linear-gradient(to bottom, ${Cores.branco}, ${Cores.prata});
-
+  a{
+     text-decoration: none;
+     color: black;
+  }
   ul {
     display: flex;
     flex-direction: column;
     margin: 0;
     padding: 0;
   }
+ 
 
   li {
     list-style: none;
