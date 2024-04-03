@@ -8,20 +8,20 @@ const produtosData = [
     id: 1,
     nome: 'Produto 1',
     imagem: landingPage,
-    preco: ,  
+    preco: '',  
     link: 'https://advogado3.vercel.app/'},
   {
     id: 2,
     nome: 'Produto 2',
     imagem: landingPage2,
-    preco:  ,
+    preco: '' ,
     link:'https://adv-flax.vercel.app/'
   },
   {
     id: 2,
     nome: 'Produto 2',
     imagem: landingPage3,
-    preco:  ,
+    preco:  '',
     link:'https://adevogado2.vercel.app/'
   },
  
